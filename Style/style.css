@@ -1,0 +1,301 @@
+.home{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0rem 14.375rem 0rem 23.75rem;
+  background-color: #000;
+  gap: 6rem;
+}
+
+.introhome {
+  display: grid;
+  padding: 12.5rem 0rem 7.5rem;
+}
+
+.bikhome{
+  width: 40rem;
+  height: 50.375rem;
+  border-radius: 5px;
+  position: absolute;
+  justify-self: end;
+}
+
+p, h1 {
+  margin: 0rem;
+}
+
+.introdesc {
+  margin: 2.375rem 0rem 1.25rem;
+}
+
+.botao {
+  background-image: linear-gradient(to top, #F2A50C, #FFBF00);
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  color: #332200;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.botao:hover {
+  background-image: linear-gradient(to top, #d49414, #f0b812);
+}
+
+.escolhasuabik{
+  padding: 7.5rem 14.38rem 10rem;
+}
+
+.escolha {
+  color: #000;
+  margin: 0rem 0rem 3.75rem 9.38rem;
+}
+
+.escolhabik {
+  height: 32.5rem;
+  width: 28.75rem;
+  border-radius: 5px;
+}
+
+.gridescolhabik {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.infobikescolha {
+  margin-left: 1.25rem;
+}
+
+.pnomebik::before {
+  position: absolute;
+  content: '';
+  width: 0.75rem;
+  height: 0.5rem;
+  background: #E5A40B;
+  left: -1.25rem;
+  top: 14px;
+}
+
+.pnomebik {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight:600;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  margin: 0.75rem 0rem 0.5rem;
+  display: inline-block;
+}
+
+.infotec {
+  padding: 0rem 14.375rem 0rem 23.75rem;
+  background-color: #121212;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.distanciainfotec{
+  padding: 5rem 0rem;
+}
+
+.escolhecores {
+  padding: 1rem 0rem 2rem;
+}
+
+.quandoiniciamos {
+  padding-bottom: 1.25rem;
+}
+
+.escolhamodelo{
+  position: relative;
+}
+
+.escolhamodelo:hover{
+  color: #d49414
+}
+
+.escolhamodelo::before {
+  position: absolute;
+  content: '';
+  width: 16.25rem;
+  height: 0.25rem;
+  background-color: #E5A40B;
+  bottom: -0.25rem;
+}
+
+.motor-rast {
+  display: flex;
+  position: relative;
+  padding-top: 5rem;
+  gap: 2.5rem;
+}
+
+.motor-rast::after {
+  position: absolute;
+  content: '';
+  background: no-repeat url('../Bikcraft-arquivos/img/dec/bottom-left.svg');
+  width: 54px;
+  height: 54px;
+  left: -340px;
+  bottom: -32px;
+}
+
+.fototecnologia {
+  position: absolute;
+  justify-self: end;
+  align-self: center;
+  height: 1080px;
+  width: 610px;
+}
+
+.gap-motor-rast {
+  position: relative;
+  display: grid;
+  gap:0.5rem;
+}
+
+.nossos-parceiros {
+  padding: 12.5rem 14.375rem 12.5rem 23.75rem;
+}
+
+.grid-parceiros {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 80px 140px;
+  padding-top: 8rem;
+}
+
+.gridcomentario {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #FFBB00;
+  gap: 5rem;
+}
+
+.imgcoment {
+  height: 680px;
+  width: 940px;
+}
+
+.comentenome {
+  display: grid;
+  position: relative;
+  gap: 2rem;
+  padding-bottom: 5rem;
+  align-content: end;
+}
+
+.comentenome::before {
+  position: absolute;
+  content: '';
+  background: no-repeat url('../Bikcraft-arquivos/img/dec/top-left-p.svg');
+  width: 54px;
+  height: 54px;
+  left: -40px;
+  top: 40px;
+}
+
+.comentenome::after {
+  position: absolute;
+  content: '';
+  background: no-repeat url('../Bikcraft-arquivos/img/dec/bottom-right-p.svg');
+  width: 54px;
+  height: 54px;
+  align-self: end;
+  justify-self: end;
+  padding: 0px 2.5rem 2.5rem 0rem;
+}
+
+.comentariocliente {
+  position: relative;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 3rem;
+  max-width: 25ch;
+}
+
+.backgroundseguro {
+  display: grid;
+  position: relative;
+  gap: 3.75rem;
+  place-content: center;
+  background-color: #121212;
+  padding: 3.75rem 0rem 7.5rem;
+}
+
+.backgroundseguro::before{
+  position: absolute;
+  content: '';
+  background: no-repeat url('../Bikcraft-arquivos/img/dec/bottom-left.svg');
+  width: 54px;
+  height: 54px;
+  align-self: end;
+  margin: 0px 0rem 2.5rem 2.5rem;
+}
+
+.grid-prata-ouro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 0.25rem;
+}
+
+.mensal, .precomensal {
+  grid-column: 2;
+  justify-self: end;
+}
+
+.grid-seguro-info {
+  display: grid;
+  gap: 1.25rem;
+  padding: 2rem 2rem 2rem 3.75rem;
+}
+
+.botao-prata {
+  padding: 1rem 2rem;
+  background-image: linear-gradient(to top, #262626, #2b2b2b);
+  display: inline-block;
+  border-radius: 5px;
+  margin: 0rem 2rem 2rem 3.75rem;
+}
+
+.botao-prata:hover {
+  background-image: linear-gradient(to top, #1f1f1f, #262626);
+}
+
+.botao-ouro {
+  padding: 1rem 2rem;
+  background-image: linear-gradient(to top, #F2A50C, #FFBF00);
+  display: inline-block;
+  border-radius: 5px;
+  margin: 0rem 2rem 2rem 3.75rem;
+}
+
+.botao-ouro:hover {
+  background-image: linear-gradient(to top, #d49414, #f0b812);
+}
+
+.grid-seguro-inteiro {
+  background-color: #000;
+  border-radius: 5px;
+  width: 560px;
+}
+
+.grid-seguros{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+}
+
+.grid-seguro-1 {
+  margin: 44px 0rem 44px;
+}
+
+.detalheseguro {
+  position: relative;
+}
+
+.detalheseguro::before{
+  position: absolute;
+  content: '';
+}
