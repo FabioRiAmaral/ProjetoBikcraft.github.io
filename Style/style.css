@@ -255,6 +255,26 @@ p, h1 {
   max-width: 25ch;
 }
 
+.comentariocliente::before {
+  position: absolute;
+  content: "";
+  background: no-repeat url('../Bikcraft-arquivos/img/aspasdireita.svg');
+  width: 40px;
+  height: 35px;
+  top: -25px;
+  left: -40px;
+}
+
+.comentariocliente::after {
+  position: absolute;
+  content: "";
+  background: no-repeat url('../Bikcraft-arquivos/img/aspasesquerda.svg');
+  width: 40px;
+  height: 35px;
+  bottom: -10px;
+  right: 0px;
+}
+
 .backgroundseguro {
   display: grid;
   position: relative;
