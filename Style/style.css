@@ -358,6 +358,11 @@ p, h1 {
 .detalheseguro::before{
   position: absolute;
   content: '';
+  background: no-repeat url(../Bikcraft-arquivos/img/icones/lista.svg);
+  width: 0.75rem;
+  height: 0.5625rem;
+  top: 25%;
+  left: -1.25rem;
 }
 
 .nossasbicbackground {
