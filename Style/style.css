@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .home{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -498,4 +502,20 @@ p, h1 {
   height: 460px;
   left: 580px;
   top: -60px;
+}
+
+.primeirofundo-paginabikes{
+  background-color: #121212;
+  place-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3.75rem 0rem;
+}
+
+.grid-bicicletas {
+  grid-column: 1/1;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(2, 1fr);
+  max-width:560px;
 }
