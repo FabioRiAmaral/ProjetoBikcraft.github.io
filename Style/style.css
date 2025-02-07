@@ -629,8 +629,6 @@ p, h1 {
   gap: 1rem;
 }
 
-/* Esta parte prescisa ser revisada, por algum motivo o codigo não funciona como deveria */
-
 .ficha-tecnica {
   display: flex;
   flex-direction: column;
@@ -640,13 +638,13 @@ p, h1 {
   gap: 0.75rem;
 }
 
-.ficha-tecnica span {
+.ficha-tecnica div {
   display: grid;
   position: relative;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.ficha-tecnica span:nth-child(n+2):nth-child(-n+7):before {
+.ficha-tecnica div:nth-child(n+2):nth-child(-n+6):before {
   content: '';
   position: absolute;
   background: #121212;
@@ -655,7 +653,9 @@ p, h1 {
   top: -6px;
 }
 
-/* Esta parte prescisa ser revisada, por algum motivo o codigo não funciona como deveria */
+.ficha-tecnica span {
+  justify-self: end;
+}
 
 .grid-bicicletas::before {
   position: absolute;
